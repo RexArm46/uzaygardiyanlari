@@ -7,32 +7,41 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: linear-gradient(to right, #141e30, #243b55);
             margin: 0;
             padding: 0;
             text-align: center;
+            color: white;
         }
         .container {
             width: 80%;
             margin: 20px auto;
-            background: white;
+            background: rgba(255, 255, 255, 0.1);
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
         }
         h1 {
-            color: #333;
+            color: #ffcc00;
+            font-size: 36px;
+            text-transform: uppercase;
         }
         p {
             font-size: 18px;
             line-height: 1.6;
+            color: #ddd;
+        }
+        .highlight {
+            color: #ffcc00;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Uzay Gardiyanları</h1>
-        <p>Biz, <strong>Uzay Gardiyanları</strong>, evrenin temizliğini sağlamak için bir araya geldik! Gökyüzündeki çöplerin oluşturduğu tehditleri ortadan kaldırmak, gelecekteki uzay yolculuklarını güvence altına almak için harekete geçiyoruz.</p>
+        <p>Biz, <span class="highlight">Uzay Gardiyanları</span>, evrenin temizliğini sağlamak için bir araya geldik! Gökyüzündeki çöplerin oluşturduğu tehditleri ortadan kaldırmak, gelecekteki uzay yolculuklarını güvence altına almak için harekete geçiyoruz.</p>
         <p>Geleceğin uzay yolcuları için temiz bir ortam bırakmayı hedefliyoruz. Dünya dışı kirliliği göz önüne alarak, uzayda daha güvenli bir yaşam alanı oluşturmak için farkındalık yaratmak bizim en büyük amacımız.</p>
     </div>
 </body>
